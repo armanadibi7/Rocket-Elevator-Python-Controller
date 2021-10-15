@@ -60,6 +60,8 @@ Open its door and wait for the Client to enter his destination floor.
 We add this destination floor to the queue list(List of the floors to be done).
 
 How Do we select an elevator: 
+
+
     * We check it's status first
     * If idle, we add it to the list of possible elevator
     * If moving, but it's moving to the same direction as the requested floor
